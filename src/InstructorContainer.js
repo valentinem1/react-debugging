@@ -5,7 +5,7 @@ export default class InstructorContainer extends Component {
   render() {
     return (
         <div className="ui container">
-            {this.props.mod4instructors.map((instructor) => <InstructorCard instructor = {instructor}/>)}
+            {mod4instructors.map((instructor) => <InstructorCard instructor = {instructor}/>)}
         </div>
     );
   }
