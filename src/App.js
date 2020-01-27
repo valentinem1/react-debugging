@@ -27,8 +27,8 @@ const mod4instructors = [
 class App extends React.Component {
   render(){
     return <div>
-      <Header/>
-      <InstructorContainer mod4instructors = {mod4instructors}/> 
+      <header/>
+      <InstructorContainer instructors = {mod4instructors}/> 
     </div>
   }
 }

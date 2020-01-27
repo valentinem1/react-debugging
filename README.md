@@ -34,5 +34,5 @@ Please utilize the tools you were presented in Javascript to help debug the erro
 `debugger`
 
 When debugging in React, start from the top most component and work your way down.
-
+An appropriate placement of `console.log()` in a Class Component would be between the render block but outside of the return
 
