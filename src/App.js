@@ -1,26 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import InstructorContainer from './InstructorContainer'
+import Header from './Header'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const mod4instructors = [
+  {
+    name: "Eric Kim",
+    image_url: "https://ca.slack-edge.com/T02MD9XTF-U91CXSUN4-455dd3bdbbbf-512"
+  },
+  {
+    name: "Sylwia Vargas",
+    image_url: "https://ca.slack-edge.com/T02MD9XTF-UH9S72R6C-df7459bf1595-512"
+  },
+  {
+    name: "Rei Reynoso",
+    image_url: "https://ca.slack-edge.com/T02MD9XTF-UHBJ9SLFR-fdd5c76c5e0a-512"
+  }
+]
+
+class App extends React.Component {
+  render(){
+    return <div>
+      <Header/>
+      <InstructorContainer mod4instructors = {mod4instructors}/> 
     </div>
-  );
+  }
 }
 
 export default App;
