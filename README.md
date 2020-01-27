@@ -19,7 +19,7 @@ Before you set off to work on any React App, draw the component tree: how many c
 ...
 ...
 
-Now, that you've unswered, here's what should be happening in the app:
+Now, that you've answered, here's what should be happening in the app:
 In App.js, we have our information of mod4instructors. 
 We want to pass this information down as props to the InstructorContainer component. 
 Finally, within the InstructorContainer component, we want an IntructorCard component to be generated for each of the instructor.
