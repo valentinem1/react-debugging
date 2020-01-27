@@ -9,7 +9,7 @@ Clone the directory and run
 
 Here is what is supposed to be a fully functional React App but... We are presented with some errors. Before you go ahead and fix them, discuss in groups your assumptions of what caused the bug and then use debugging tools (see below) where appropriate to confirm your assumptions. Use this opportunity to practice driving/navigating. Take turns.  
 
-![](images/filename sample.png)
+![Sample Photo](sample.png)
 
 ## Component Tree and Structure
 Before you set off to work on any React App, draw the component tree: how many children does the App.js have? What are they? 
